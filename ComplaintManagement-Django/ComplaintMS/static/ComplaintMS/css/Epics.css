@@ -1,0 +1,88 @@
+* {
+    font-family: "Roboto", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+}
+
+@media(min-width:768px) {
+    .news-input {
+        width: 50%;
+    }
+}
+
+.navbar {
+    font-size: 1rem;
+    font-weight: 500;
+    background-color: rgb(32, 30, 30);
+    opacity: 0.7;
+}
+
+.navbar li {
+    padding-left: 30px;
+    padding-right: 10px;
+
+
+}
+
+.navbar li:hover {
+    color: blue;
+
+}
+
+.con1 {
+
+    background-image: url("/ComplaintMS/static/ComplaintMS/img/ep1.jpg");
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+    background-repeat: no-repeat;
+    /* position:absolute; */
+}
+
+.con1 .t1 {
+    padding-top: 250px;
+    padding-bottom: 120px;
+    padding-left: 50px;
+    font-size: 2.5px;
+    font-weight: 600;
+
+}
+
+.btn2 {
+    background-color: #febf37fb;
+    padding: 7px;
+    width: 130px;
+    font-weight: bold;
+    font-size: larger;
+}
+
+.commit {
+    height: 370px;
+    text-align: left;
+    background-color: #35a644;
+}
+
+.img2 {
+    background-image: url("/ComplaintMS/static/ComplaintMS/img/ep3.jpg");
+    background-size: cover;
+    height: 368px;
+    width: 400px;
+    /* border: 2px solid red; */
+}
+
+#services h5 {
+    color: #35a644;
+    font-weight: bold;
+
+}
+
+#services img {
+    justify-content: center;
+}
+
+
+
+@media (max-width: 28.75em) {
+    .ser {
+        margin-left: 40px;
+
+    }
+}

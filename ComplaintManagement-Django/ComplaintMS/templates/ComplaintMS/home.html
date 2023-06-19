@@ -1,0 +1,152 @@
+{% extends "ComplaintMS/index.html" %}
+
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1" /> 
+
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="/ComplaintMS/static/ComplaintMS/css/Epics.css" />
+</head>
+{% block content %}
+          {% load static %}
+  
+
+<!-- <div class="card bg-warning text-white">
+    
+                <div class="ml-3">
+                <p style="color:white; font-size:40px;"> <b>Complaint Management System</b></p>
+        <p style="color:white; text-align:justify;">
+
+                 
+           
+                </p>
+  </div>
+<br>
+
+</div> -->
+
+ {% load static %}
+ 
+<section class="con1 text-light pt-sm-0 text-center text-sm-start" id="home">
+    <div class="container">
+      <div class="d-sm-flex align-items-center justify-content-between">
+        <div class="t1">
+          <h2>Anytime anywhere</h2>
+          <h2><span class="text-warning">Remove Waste From</span></h2>
+          <!-- <p class="lead my-10 t-bold">Your Home, Business, or city</p> -->
+          <h4>Your Home, Business, or city</h4>
+          <button class="btn btn-primary btn-md" data-bs-toggle="modal" data-bs-target="#enroll"><a href="#Contact-Us" class="btn btn-primary">Contact Us</a>
+
+          </button>
+        </div>
+        <div class="w-50 h-50 d-none d-sm-block" style="
+              height: 200px;
+              width: 400px;
+              background-color: rgb(32, 30, 30);
+              opacity: 0.6;
+              padding: 30px 20px 30px 20px;
+            ">
+          <p>
+            An initiative to provide end-to-end waste management services
+            based on the principales of circular economy.To promote and
+            develop sustainable and Professional Waste Management garbage cap.
+          </p>
+        </div>
+        <!-- <img class="img-fluid w-50 h-50 d-none d-sm-block" src="/showcase6.svg"
+                    alt="Error Network connection is slow"> -->
+      </div>
+    </div>
+  </section>
+
+  <section class="text-light p-lg-3 position-relative" id="learn">
+    <div class="containeer">
+      <div class="row align-items-center justify-content-between">
+        <div class="commit col-md p-5">
+          <h2 class="mt-4">Our commitment</h2>
+          <p class="mt-3">
+            Focused on improving the quality of life through proper and
+            efficient waste disposal, Valley Vista Services aims to leave a
+            clean and lasting mark. We build and foster relationships through
+            our service, community engagement, and innovative waste disposal
+            and recycling programs.
+          </p>
+
+
+        </div>
+        <div class="img2 col-md d-none d-sm-block">
+          <!-- <img class="img-fluid d-none d-sm-block" src="ep3.jpg" alt="Sorry there is an error"> -->
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-----------------------Our services------------------------->
+  <div id="services" class="container mt-2 mb-5">
+    <div class="post-heading text-center pt-4 pb-5">
+      <h5 class="display-4 font-weight-bold">Our services</h5>
+    </div>
+
+    <div class="row ser g-4 row-md pl-lg-5">
+      <div class="col-md pb-5">
+        <div class="card" style="width: 18rem; border: 1px solid green">
+          <img src="/ComplaintMS/static/ComplaintMS/img/residential-waste1.png" class="card-img-top h-30 w-50" alt="..." />
+          <div class="card-body">
+            <h5 class="card-title">Residential Waste Pickup</h5>
+            <p class="card-text font-size-1">
+              We will provide curbside trash and recycling pickup services. It
+              will be best choice for your home and for the environment.
+            </p>
+            <a href="/HTML/Sign_up.html" class="btn btn-dark">Request Service</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-lg-4 col-md-6 col-12 pb-5">
+        <div class="card" style="width: 18rem; border: 1px solid green">
+          <img src="/ComplaintMS/static/ComplaintMS/img/bagster.png" class="card-img-top h-30 w-50" alt="..." />
+          <div class="card-body">
+            <h5 class="card-title">Bagster Bag</h5>
+            <p class="card-text">
+              For big cleanups that fon't need a dumpster, Bagster is the
+              answer. we'll come get it when it's full.
+            </p>
+              <!--TODO -->
+            <a href="/HTML/Sign_up.html" class="btn btn-dark">Request Service</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-lg-4 col-md-6 col-12 pb-5">
+        <div class="card" style="width: 18rem; border: 1px solid green">
+          <img src="/ComplaintMS/static/ComplaintMS/img/Bulk_Waste.png" class="card-img-top h-30 w-50" alt="..." />
+          <div class="card-body">
+            <h5 class="card-title">Bulk waste Pickup</h5>
+            <p class="card-text">
+              Trust on us for safe, efficient disposal of bulk(multiple) or
+              bulky (large) waste items.
+            </p>
+            <a href="/ComplaintMS/static/ComplaintMS/img/Sign_up.html" class="btn btn-dark">Request Service</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <section class="text-light p-lg-3 position-relative" id="learn">
+  <div class="containeer">
+    <div class="">
+
+      <video width="500px" height="500px" autoplay muted
+      controls="controls">
+
+      <source src="/ComplaintMS/static/ComplaintMS/videos/sw.mp4"
+          type="video/mp4">
+          <source src="sw.ogg" type="video/ogg">
+    </video>
+    </div>
+  </div>
+</section>
+  </div>
+
+  {% endblock %}
